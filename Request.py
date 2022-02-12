@@ -1,11 +1,11 @@
 # GET
 import requests
 import json
-# URL="http://localhost:8000/"
+URL="http://localhost:8000/"
 
-# r=requests.get(url=URL)
-# data=r.json()
-# print(data)
+r=requests.get(url=URL)
+data=r.json()
+print(data)
 
 # POST
 
