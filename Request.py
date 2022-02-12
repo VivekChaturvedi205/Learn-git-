@@ -1,4 +1,4 @@
-# GET REQUEST
+# GET REQUEST MASTER
 import requests
 import json
 URL="http://localhost:8000/"
@@ -7,7 +7,7 @@ r=requests.get(url=URL)
 data=r.json()
 print(data)
 
-# POST REQUEST
+# POST REQUEST MASTER
 
 URL = "http://localhost:8000/stucreate/"
 data = {
